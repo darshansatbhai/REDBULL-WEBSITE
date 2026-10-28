@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071a2d" />
+    <meta name="description" content="A Red Bull-inspired editorial experience for those who live beyond the ordinary." />
+    <title>Beyond the Ordinary | Red Bull</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://img.redbull.com" />
+    <link rel="preconnect" href="https://rbds-static.redbull.com" crossorigin />
+    <link rel="preload" as="image" href="https://img.redbull.com/images/c_fill,g_auto,w_2000,h_1200/q_auto,f_auto/redbullcom/2026/9/22/ecnj4btcxwfvydcac2ra/luke-whitlock-red-bull-rampage-virgin-utah-2025" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="motion-choice" role="status"><span id="motion-status">Reduced motion is enabled on this device.</span><button id="motion-toggle" type="button">ENABLE 3D MOTION</button></div>
+      <button class="scroll-feedback" type="button" aria-pressed="true" aria-label="Turn scroll feedback off"><span class="feedback-dot" aria-hidden="true"></span><span class="feedback-label">SCROLL FEEDBACK ON</span></button><div class="scroll-feedback-flash" aria-hidden="true"></div>
+      <header class="header" id="top">
+        <a class="brand" href="#top" aria-label="Red Bull, back to top"><img src="https://www.redbull.com/v3/resources/images/client/header/redbullcom-logo_double-with-text.svg" alt="Red Bull" /></a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#discover">Discover</a><a href="#can-experience">The Can in 3D</a><a href="#stories">Stories</a><a href="#world">The World of Red Bull</a>
+        </nav>
+        <div class="header-right"><span class="header-tag">GIVES YOU WIIINGS<span class="reg">®</span></span><button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button></div>
+      </header>
+      <div class="mobile-menu" id="mobile-menu" aria-hidden="true"><nav aria-label="Mobile navigation"><a href="#discover">Discover <span>01</span></a><a href="#can-experience">The Can in 3D <span>02</span></a><a href="#stories">Stories <span>03</span></a><a href="#world">The World of Red Bull <span>04</span></a><a href="#energy">Energy Drinks <span>05</span></a></nav><p>GIVES YOU WIIINGS®</p></div>
+
+      <main>
+        <section class="hero" id="discover" aria-label="Featured stories">
+          <div class="hero-image" id="hero-image"></div><div class="hero-shade"></div><div class="hero-grain"></div>
+          <div class="hero-side"><span>THE RED BULLETIN</span><i></i><span>SCROLL TO EXPLORE</span></div>
+          <div class="hero-content">
+            <div class="eyebrow hero-reveal"><span class="red-line"></span><span id="hero-category">MOUNTAIN BIKE</span><span class="eyebrow-divider">/</span><span>THE WORLD OF RED BULL</span></div>
+            <h1 class="hero-title" id="hero-title"><span>THE EDGE IS</span><span>JUST THE</span><span>BEGINNING<span class="period">.</span></span></h1>
+            <p class="hero-copy hero-reveal" id="hero-copy">Some see the impossible. Others see a starting line.</p>
+            <a class="button button-light hero-reveal" id="hero-link" href="https://www.redbull.com/us-en/events/red-bull-rampage" target="_blank" rel="noreferrer"><span>EXPLORE THE STORY</span><span class="button-arrow">↗</span></a>
+          </div>
+          <div class="hero-bottom">
+            <div class="hero-location"><span class="location-icon">✳</span><div><strong id="hero-location">VIRGIN, UTAH</strong><small id="hero-caption">RED BULL RAMPAGE</small></div></div>
+            <div class="hero-pagination"><span class="current-slide">01</span><div class="progress-track"><span id="slide-progress"></span></div><span class="total-slide">03</span><div class="slide-controls"><button id="prev-slide" aria-label="Previous featured story">←</button><button id="next-slide" aria-label="Next featured story">→</button></div></div>
+          </div>
+          <div class="hero-index">01 — 03 <span> / </span> ALWAYS FORWARD</div>
+          <a class="hero-scroll-hint" href="#can-experience"><span>SCROLL TO EXPERIENCE THE CAN</span><span>↓</span></a>
+        </section>
+
+        <div class="ticker" aria-hidden="true"><div class="ticker-inner"><span>GIVES YOU WIIINGS</span><b>✳</b><span>BEYOND THE ORDINARY</span><b>✳</b><span>GIVES YOU WIIINGS</span><b>✳</b><span>BEYOND THE ORDINARY</span><b>✳</b><span>GIVES YOU WIIINGS</span><b>✳</b></div></div>
+
+        <section class="can-experience" id="can-experience" aria-labelledby="can-title">
+          <div class="can-stage">
+            <div class="can-stage-grid" aria-hidden="true"></div>
+            <div class="can-giant-type" aria-hidden="true">WIIINGS</div>
+            <div class="can-halo" aria-hidden="true"></div>
+            <div class="can-stage-top"><span><i></i> THE ORIGINAL ENERGY DRINK</span><span>AN ICON, REIMAGINED / 01</span></div>
+            <div class="can-stage-copy"><div class="section-kicker light"><span class="red-line"></span> THE CAN THAT STARTED IT ALL</div><h2 id="can-title">ONE CAN.<br /><em>ENDLESS</em><br />WIIINGS<span>.</span></h2><p>For every idea, every adventure, and every moment in between.</p><div class="can-stage-tag">RED BULL ENERGY DRINK <span>®</span></div></div>
+            <div class="can-render" role="img" aria-label="A three-dimensional Red Bull-inspired can that rotates as you scroll"><canvas id="can-canvas" aria-hidden="true"></canvas><img class="can-fallback" src="https://img.redbull.com/images/c_limit,w_4000/e_trim:0:transparent/c_limit,w_700/q_auto:best,f_auto/redbullcom/2026/3/19/rq8kdrek8ztr3tkqzs9y/red-bull-energy-drink" alt="" /></div>
+            <div class="can-stage-aside"><span>01 / THE ORIGINAL</span><div class="aside-line"></div><p>ICONIC<br />BY DESIGN.</p><small>SCROLL TO SEE<br />ANOTHER SIDE.</small></div>
+            <div class="can-stage-bottom"><span>GIVES YOU WIIINGS®</span><div class="can-scroll-cue"><span>SCROLL TO ROTATE</span><div class="can-progress"><i></i></div><b>↓</b></div><span class="can-stage-number">01 / 03</span></div>
+          </div>
+        </section>
+
+        <section class="stories section-pad" id="stories">
+          <div class="section-top reveal"><div><div class="section-kicker"><span class="red-line"></span> STORIES WORTH TELLING</div><h2>FUEL FOR<br /><em>THE CURIOUS.</em></h2></div><div class="section-intro"><span class="index-label">01 / THE LATEST</span><p>Big moments. Bold moves. The people and ideas pushing the world forward.</p><a class="text-link" href="https://www.redbull.com/us-en/discover" target="_blank" rel="noreferrer">EXPLORE ALL STORIES <span>↗</span></a></div></div>
+          <div class="story-grid">
+            <a class="story-card reveal" href="https://www.redbull.com/us-en/events/red-bull-rampage" target="_blank" rel="noreferrer"><div class="card-image"><img src="https://img.redbull.com/images/c_fill,g_auto,w_1000,h_1100/q_auto,f_auto/redbullcom/2026/9/21/invbtwmpszl2icd9ah8q/hannah-bergemann-red-bull-rampage-2025-virgin-utah-practice" alt="A mountain biker in the Utah desert" loading="lazy" /><span class="card-number">01</span><span class="card-arrow">↗</span></div><div class="card-meta"><span>MOUNTAIN BIKE</span><span>THE BIG PICTURE</span></div><h3>Where the trail ends,<br />possibility begins.</h3><span class="card-link">DISCOVER THE STORY <span>↗</span></span></a>
+            <a class="story-card reveal" href="https://www.redbull.com/us-en/surfing" target="_blank" rel="noreferrer"><div class="card-image"><img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_5461,w_8192/c_fill,w_1000,h_1100/q_auto,f_auto/redbullcom/2026/10/27/r47kiij5yhybgramp7qm/carissa-moores-comeback-adds-another-chapter-to-her-legacy" alt="Surfer Carissa Moore in the ocean" loading="lazy" /><span class="card-number">02</span><span class="card-arrow">↗</span></div><div class="card-meta"><span>SURFING</span><span>INTO THE BLUE</span></div><h3>In pursuit of<br />the next wave.</h3><span class="card-link">DISCOVER THE STORY <span>↗</span></span></a>
+            <a class="story-card reveal" href="https://www.redbull.com/us-en/dance" target="_blank" rel="noreferrer"><div class="card-image"><img src="https://img.redbull.com/images/c_crop,x_0,y_961,h_1835,w_2752/c_fill,w_1000,h_1100/q_auto,f_auto/redbullcom/2026/10/24/odnf1tw2axbpa5qxanlz/red-bull-dance-your-style-world-final-2026-winner-willis" alt="A dancer celebrates on stage" loading="lazy" /><span class="card-number">03</span><span class="card-arrow">↗</span></div><div class="card-meta"><span>DANCE</span><span>MOVE DIFFERENTLY</span></div><h3>Find your rhythm.<br />Then make it yours.</h3><span class="card-link">DISCOVER THE STORY <span>↗</span></span></a>
+          </div>
+        </section>
+
+        <section class="manifesto" id="world"><div class="manifesto-image"></div><div class="manifesto-overlay"></div><div class="manifesto-content reveal"><div class="section-kicker light"><span class="red-line"></span> THE WORLD OF RED BULL</div><h2>IT STARTS<br />WITH <em>WHAT IF.</em></h2><p>For the dreamers, the doers, and the ones who never stop asking what’s next. This is a world made for you.</p><a class="button button-light" href="https://www.redbull.com/us-en" target="_blank" rel="noreferrer"><span>ENTER OUR WORLD</span><span class="button-arrow">↗</span></a></div><div class="manifesto-mark">NO GUTS.<br />NO GLORY.</div><span class="image-credit">THE PURSUIT OF MORE / 02</span></section>
+
+        <section class="energy section-pad" id="energy"><div class="energy-copy reveal"><div class="section-kicker"><span class="red-line"></span> THE ORIGINAL</div><h2>WIIINGS FOR<br /><em>YOUR WORLD.</em></h2><p>From the everyday to the extraordinary. Whatever your next adventure looks like, Red Bull gives you wiiings.</p><a class="button button-dark" href="https://www.redbull.com/us-en/energydrink/products/red-bull-energy-drink" target="_blank" rel="noreferrer"><span>MEET THE ORIGINAL</span><span class="button-arrow">↗</span></a></div><div class="energy-art"><div class="energy-circle"></div><span class="energy-word">WIIINGS</span><img class="can" src="https://img.redbull.com/images/c_limit,w_4000/e_trim:0:transparent/c_limit,w_700/q_auto:best,f_auto/redbullcom/2026/3/19/rq8kdrek8ztr3tkqzs9y/red-bull-energy-drink" alt="A can of Red Bull Energy Drink" loading="lazy" /><span class="energy-art-label">VITALIZES BODY AND MIND.®</span></div></section>
+      </main>
+      <footer class="footer"><div class="footer-top"><div><img class="footer-logo" src="https://www.redbull.com/v3/resources/images/client/header/redbullcom-logo_double-with-text.svg" alt="Red Bull" /><p>For a world beyond<br />the ordinary.</p></div><div class="footer-links"><div><span>EXPLORE</span><a href="#stories">Stories</a><a href="#world">Our world</a><a href="#energy">Energy drinks</a></div><div><span>FOLLOW THE ENERGY</span><a href="https://www.instagram.com/redbull/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.youtube.com/redbull" target="_blank" rel="noreferrer">YouTube ↗</a><a href="https://www.redbull.com" target="_blank" rel="noreferrer">Red Bull ↗</a></div></div><a class="back-top" href="#top" aria-label="Back to top">↑</a></div><div class="footer-bottom"><span>© RED BULL INSPIRED CONCEPT</span><span>AN UNOFFICIAL CREATIVE EXPERIENCE</span><span>MADE TO GIVE YOU WIIINGS.</span></div></footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
